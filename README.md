@@ -20,6 +20,14 @@ A quantitative time-series analysis comparing historical equity performance, liq
 * `yfinance` — automated retrieval of split- and dividend-adjusted OHLCV market data
 * `matplotlib` & `mplfinance` — price/volume charts, KDE/histogram distributions, box plots, scatter matrices, and OHLC candlestick visualizations
 
+## Peak Trading Volume & Market Catalysts
+
+| Ticker | Peak Volume Date | Share Volume | Primary Market Catalyst |
+| :--- | :---: | :---: | :--- |
+| **TSLA** | 2023-01-27 | 306,590,600 | Post-earnings momentum rally (+10%+ intraday) following Tesla's record Q4 2022 revenue ($24.32B) and EPS ($1.19) beat, accompanied by multiple Wall Street price-target upgrades. |
+| **F** | 2025-10-23 | 479,840,300 | Q3 2025 earnings release day, where better-than-expected financial results collided with Ford's disclosure of an up-to-$2B profit hit from a key F-150 aluminum supplier fire (~100,000-unit production impact) and management's 2026 recovery guidance. |
+| **GM** | 2023-11-29 | 85,193,700 | GM reinstated its full-year 2023 earnings guidance following the UAW strike and announced a $10B accelerated share repurchase program alongside a 33% dividend increase.
+
 ## How to Run
 ```bash
 pip install pandas numpy matplotlib yfinance mplfinance jupyter
